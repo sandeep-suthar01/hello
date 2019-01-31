@@ -1,2 +1,2 @@
-FROM google/golang-runtime
-EXPOSE 9999
+FROM golang:onbuild
+EXPOSE 8080
